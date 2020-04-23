@@ -102,10 +102,11 @@
       // Query the Database for Albums and dispaly then in a dynamic HTML table
       function displayAlbums()
       {
-      	// Get all the Albums from the Database
+      	// Get all the Albums from the Database where artist is The Beatles, sort the results by Year then Title
       	firebase.firestore().collection("albums").where("artist", "==", "The Beatles").orderBy("year").orderBy("title").get()
       	.then((querySnapshot) => 
       	{
+      			// For each Document returned display the Album
     			querySnapshot.forEach((doc) => 
     			{
 					displayAlbum(doc.data());
@@ -147,10 +148,11 @@
 	  // Display the Album Tracks
 	  function displayTracks(title)
 	  {
-      	// Get all the Albums from the Database
+      	// Get all the Albums from the Database where artist is The Beatles, sort the results by Year
       	firebase.firestore().collection("albums").where("artist", "==", "The Beatles").where("title", "==", title).orderBy("year").get()
       	.then((querySnapshot) => 
       	{
+      			// For each Document concatenate all the Tracks and display the results in an alert box
     			querySnapshot.forEach((doc) => 
     			{
 					var tracks = "";

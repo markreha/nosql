@@ -1,0 +1,1045 @@
+{
+  "albums" : [ {
+    "artist" : "The Beatles",
+    "description" : "Revolver is the seventh studio album by the English rock band the Beatles. Released on 5 August 1966, it was the Beatles' final recording project before their retirement as live performers and marked the group's most overt use of studio technology up to that time, building on the advances of their late 1965 release Rubber Soul.",
+    "image_name" : "7.png",
+    "title" : "Revolver",
+    "year" : 1966,
+    "tracks" : [ {
+      "lyrics" : "",
+      "number" : 1,
+      "title" : "Taxman",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 2,
+      "title" : "Eleanor Rigby",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 3,
+      "title" : "I'm Only Sleeping",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 4,
+      "title" : "Love You To",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 5,
+      "title" : "Here, There and Everywhere",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 6,
+      "title" : "Yellow Submarine",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 7,
+      "title" : "She Said She Said",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 8,
+      "title" : "Good Day Sunshine",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 9,
+      "title" : "And Your Bird Can Sing",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 10,
+      "title" : "For No One",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 11,
+      "title" : "Doctor Robert",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 12,
+      "title" : "I Want to Tell You",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 13,
+      "title" : "Got to Get You into My Life",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 14,
+      "title" : "Tomorrow Never Knows",
+      "video_url" : ""
+    } ]
+  }, {
+    "artist" : "The Beatles",
+    "description" : "Rubber Soul is the sixth studio album by the English rock band the Beatles. It was released on 3 December 1965 in the United Kingdom, on EMI's Parlophone label, accompanied by the non-album double A-side single Day Tripper\" / \"We Can Work It Out\".",
+    "image_name" : "6.png",
+    "title" : "Rubber Soul",
+    "year" : 1965,
+    "tracks" : [ {
+      "lyrics" : "",
+      "number" : 1,
+      "title" : "I've Just Seen a Face",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 2,
+      "title" : "Norwegian Wood (This Bird Has Flown)",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 3,
+      "title" : "You Won't See Me",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 4,
+      "title" : "Think for Yourself",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 5,
+      "title" : "The Word",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 6,
+      "title" : "Michelle",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 7,
+      "title" : "It's Only Love",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 8,
+      "title" : "Girl",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 9,
+      "title" : "I'm Looking Through You",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 10,
+      "title" : "In My Life",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 11,
+      "title" : "Wait",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 12,
+      "title" : "Run for Your Life",
+      "video_url" : ""
+    } ]
+  }, {
+    "artist" : "The Beatles",
+    "description" : "Please Please Me is the debut studio album by the English rock band the Beatles.",
+    "image_name" : "1.png",
+    "title" : "Please Please Me",
+    "year" : 1963,
+    "tracks" : [ {
+      "lyrics" : "",
+      "number" : 1,
+      "title" : "I Saw Her Standing There",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 2,
+      "title" : "Misery",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 3,
+      "title" : "Anna (Go to Him)",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 4,
+      "title" : "Chains",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 5,
+      "title" : "Boys",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 6,
+      "title" : "Ask Me Why",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 7,
+      "title" : "Please Please Me",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 8,
+      "title" : "Love Me Do",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 9,
+      "title" : "P.S. I Love You",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 10,
+      "title" : "Baby It's You",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 11,
+      "title" : "Do You Want to Know a Secret",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 12,
+      "title" : "A Taste of Honey",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 13,
+      "title" : "There's a Place",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 14,
+      "title" : "Twist and Shout",
+      "video_url" : ""
+    } ]
+  }, {
+    "artist" : "The Beatles",
+    "description" : "With the Beatles is the second studio album by the English rock band the Beatles.",
+    "image_name" : "2.png",
+    "title" : "With the Beatles",
+    "year" : 1963,
+    "tracks" : [ {
+      "lyrics" : "",
+      "number" : 1,
+      "title" : "It Won't Be Long",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 2,
+      "title" : "All I've Got to Do",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 3,
+      "title" : "All My Loving",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 4,
+      "title" : "Don't Bother Me",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 5,
+      "title" : "Little Child",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 6,
+      "title" : "Till There Was You",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 7,
+      "title" : "Please Mr. Postman",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 8,
+      "title" : "Roll Over Beethoven",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 9,
+      "title" : "Hold Me Tight",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 10,
+      "title" : "You Really Got a Hold on Me",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 11,
+      "title" : "I Wanna Be Your Man",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 12,
+      "title" : "Devil in Her Heart",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 13,
+      "title" : "Not a Second Time",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 14,
+      "title" : "Money (That's What I Want)",
+      "video_url" : ""
+    } ]
+  }, {
+    "artist" : "The Beatles",
+    "description" : "A Hard Day's Night is the third studio album by the English rock band the Beatles, released on 10 July 1964, with side one containing songs from the soundtrack to their film of the same name.",
+    "image_name" : "3.png",
+    "title" : "A Hard Day's Night",
+    "year" : 1964,
+    "tracks" : [ {
+      "lyrics" : "",
+      "number" : 1,
+      "title" : "A Hard Day's Night",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 2,
+      "title" : "I Should Have Known Better",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 3,
+      "title" : "If I Fell",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 4,
+      "title" : "I'm Happy Just to Dance with You",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 5,
+      "title" : "And I Love Her",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 6,
+      "title" : "Tell Me Why",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 7,
+      "title" : "Can't Buy Me Love",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 8,
+      "title" : "Any Time at All",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 9,
+      "title" : "I'll Cry Instead",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 10,
+      "title" : "Things We Said Today",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 11,
+      "title" : "When I Get Home",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 12,
+      "title" : "You Can't Do That",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 13,
+      "title" : "I'll Be Back",
+      "video_url" : ""
+    } ]
+  }, {
+    "artist" : "The Beatles",
+    "description" : "Help! is the fifth studio album by English rock band the Beatles and the soundtrack from their film Help!. It was released on 6 August 1965.",
+    "image_name" : "5.png",
+    "title" : "Help!",
+    "year" : 1965,
+    "tracks" : [ {
+      "lyrics" : "",
+      "number" : 1,
+      "title" : "Help!",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 2,
+      "title" : "The Night Before",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 3,
+      "title" : "You've Got to Hide Your Love Away",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 4,
+      "title" : "I Need You",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 5,
+      "title" : "Another Girl",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 6,
+      "title" : "You're Going to Lose That Girl",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 7,
+      "title" : "Ticket to Ride",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 8,
+      "title" : "Act Naturally",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 9,
+      "title" : "It's Only Love",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 10,
+      "title" : "You Like Me Too Much",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 11,
+      "title" : "Tell Me What You See",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 12,
+      "title" : "I've Just Seen a Face",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 13,
+      "title" : "Yesterday",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 14,
+      "title" : "Dizzy Miss Lizzy",
+      "video_url" : ""
+    } ]
+  }, {
+    "artist" : "The Beatles",
+    "description" : "Sgt. Pepper's Lonely Hearts Club Band is the eighth studio album by the English rock band the Beatles. Released on 26 May 1967 in the United Kingdom[nb 1] and 2 June 1967 in the United States, it spent 27 weeks at number one on the UK Albums Chart and 15 weeks at number one in the US.",
+    "image_name" : "8.png",
+    "title" : "Sgt. Pepper's Lonely Hearts Club Band",
+    "year" : 1967,
+    "tracks" : [ {
+      "lyrics" : "",
+      "number" : 1,
+      "title" : "Sgt. Pepper's Lonely Hearts Club Band",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 2,
+      "title" : "With a Little Help from My Friends",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 3,
+      "title" : "Lucy in the Sky with Diamonds",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 4,
+      "title" : "Getting Better",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 5,
+      "title" : "Fixing a Hole",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 6,
+      "title" : "She's Leaving Home",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 7,
+      "title" : "Being for the Benefit of Mr. Kite!",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 8,
+      "title" : "Within You Without You",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 9,
+      "title" : "When I'm Sixty-Four",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 10,
+      "title" : "Lovely Rita",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 11,
+      "title" : "Good Morning Good Morning",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 12,
+      "title" : "Sgt. Pepper's Lonely Hearts Club Band (Reprise)",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 13,
+      "title" : "A Day in the Life",
+      "video_url" : ""
+    } ]
+  }, {
+    "artist" : "The Beatles",
+    "description" : "Magical Mystery Tour is an album by the English rock band the Beatles that was released as a double EP in the United Kingdom and an LP in the United States.",
+    "image_name" : "9.png",
+    "title" : "Magical Mystery Tour",
+    "year" : 1967,
+    "tracks" : [ {
+      "lyrics" : "",
+      "number" : 1,
+      "title" : "Magical Mystery Tour",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 2,
+      "title" : "The Fool on the Hill",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 3,
+      "title" : "Flying",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 4,
+      "title" : "Blue Jay Way",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 5,
+      "title" : "Your Mother Should Know",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 6,
+      "title" : "I Am the Walrus",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 7,
+      "title" : "Hello, Goodbye",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 8,
+      "title" : "Strawberry Fields Forever",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 9,
+      "title" : "Penny Lane",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 10,
+      "title" : "Baby, You're a Rich Man",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 11,
+      "title" : "All You Need Is Love",
+      "video_url" : ""
+    } ]
+  }, {
+    "artist" : "The Beatles",
+    "description" : "The Beatles, also known as the White Album, is the ninth studio album and only double album by the English rock band the Beatles, released on 22 November 1968. Its plain white sleeve has no graphics or text other than the band's name embossed,[a] which was intended as a direct contrast to the vivid cover artwork of the band's previous LP Sgt. Pepper's Lonely Hearts Club Band. The Beatles is recognised for its fragmentary style and diverse range of genres, including folk, British blues, ska, music hall and the avant-garde. It has since been viewed by some critics as a postmodern work, as well as among the greatest albums of all time.",
+    "image_name" : "10.png",
+    "title" : "The Beatles (White Album)",
+    "year" : 1968,
+    "tracks" : [ {
+      "lyrics" : "",
+      "number" : 1,
+      "title" : "Back in the U.S.S.R.",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 2,
+      "title" : "Dear Prudence",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 3,
+      "title" : "Glass Onion",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 4,
+      "title" : "Ob-La-Di, Ob-La-Da",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 5,
+      "title" : "Wild Honey Pie",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 6,
+      "title" : "The Continuing Story of Bungalow Bill",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 7,
+      "title" : "While My Guitar Gently Weeps",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 8,
+      "title" : "Happiness Is a Warm Gun",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 9,
+      "title" : "Martha My Dear",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 10,
+      "title" : "I'm So Tired",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 11,
+      "title" : "Blackbird",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 12,
+      "title" : "Piggies",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 13,
+      "title" : "Rocky Raccoon",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 14,
+      "title" : "Don't Pass Me By",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 15,
+      "title" : "Why Don't We Do It in the Road?",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 16,
+      "title" : "I Will",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 17,
+      "title" : "Julia",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 18,
+      "title" : "Birthday",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 19,
+      "title" : "Yer Blues",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 20,
+      "title" : "Mother Nature's Son",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 21,
+      "title" : "Everybody's Got Something to Hide Except Me and My Monkey",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 22,
+      "title" : "Sexy Sadie",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 23,
+      "title" : "Helter Skelter",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 24,
+      "title" : "Long, Long, Long",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 25,
+      "title" : "Revolution 1",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 26,
+      "title" : "Honey Pie",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 27,
+      "title" : "Savoy Truffle",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 28,
+      "title" : "Cry Baby Cry",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 29,
+      "title" : "Revolution 9",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 30,
+      "title" : "Good Night",
+      "video_url" : ""
+    } ]
+  }, {
+    "artist" : "The Beatles",
+    "description" : "Yellow Submarine is the tenth studio album by English rock band the Beatles, released on 13 January 1969 in the United States and on 17 January 1969 in the United Kingdom.",
+    "image_name" : "11.png",
+    "title" : "Yellow Submarine",
+    "year" : 1969,
+    "tracks" : [ {
+      "lyrics" : "",
+      "number" : 1,
+      "title" : "Yellow Submarine",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 2,
+      "title" : "Only a Northern Song",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 3,
+      "title" : "All Together Now",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 4,
+      "title" : "Hey Bulldog",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 5,
+      "title" : "It's All Too Much",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 6,
+      "title" : "All You Need Is Love",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 7,
+      "title" : "Pepperland",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 8,
+      "title" : "Sea of Time",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 9,
+      "title" : "Sea of Holes",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 10,
+      "title" : "Sea of Monsters",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 11,
+      "title" : "March of the Meanies",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 12,
+      "title" : "Pepperland Laid Waste",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 13,
+      "title" : "Yellow Submarine in Pepperland",
+      "video_url" : ""
+    } ]
+  }, {
+    "artist" : "The Beatles",
+    "description" : "Abbey Road is the eleventh studio album by English rock band the Beatles, released on 26 September 1969 by Apple Records. The recording sessions for the album were the last in which all four Beatles participated.",
+    "image_name" : "12.png",
+    "title" : "Abbey Road",
+    "year" : 1969,
+    "tracks" : [ {
+      "lyrics" : "",
+      "number" : 1,
+      "title" : "Come Together",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 2,
+      "title" : "Something",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 3,
+      "title" : "Maxwell's Silver Hammer",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 4,
+      "title" : "Oh! Darling",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 5,
+      "title" : "Octopus's Garden",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 6,
+      "title" : "I Want You (She's So Heavy)",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 7,
+      "title" : "Here Comes the Sun",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 8,
+      "title" : "Because",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 9,
+      "title" : "You Never Give Me Your Money",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 10,
+      "title" : "Sun King",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 11,
+      "title" : "Mean Mr. Mustard",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 12,
+      "title" : "Polythene Pam",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 13,
+      "title" : "She Came In Through the Bathroom Window",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 14,
+      "title" : "Golden Slumbers",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 15,
+      "title" : "Carry That Weight",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 16,
+      "title" : "The End",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 17,
+      "title" : "Her Majesty",
+      "video_url" : ""
+    } ]
+  }, {
+    "artist" : "The Beatles",
+    "description" : "Let It Be is the twelfth and final studio album by the English rock band the Beatles. It was released on 8 May 1970, almost a month after the group's break-up.",
+    "image_name" : "13.png",
+    "title" : "Let It Be",
+    "year" : 1970,
+    "tracks" : [ {
+      "lyrics" : "",
+      "number" : 1,
+      "title" : "Two of Us",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 2,
+      "title" : "Dig a Pony",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 3,
+      "title" : "Across the Universe",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 4,
+      "title" : "I Me Mine",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 5,
+      "title" : "Dig It",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 6,
+      "title" : "Let It Be",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 7,
+      "title" : "Maggie Mae",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 8,
+      "title" : "I've Got a Feeling",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 9,
+      "title" : "One After 909",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 10,
+      "title" : "The Long and Winding Road",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 11,
+      "title" : "For You Blue",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 12,
+      "title" : "Get Back",
+      "video_url" : ""
+    } ]
+  }, {
+    "artist" : "The Beatles",
+    "description" : "Beatles for Sale is the fourth studio album by the English rock band the Beatles. It was released on 4 December 1964 in the United Kingdom on EMI's Parlophone label. The album marked a departure from the upbeat tone that had characterised the Beatles' previous work, partly due to the band's exhaustion after a series of tours that had established them as a worldwide phenomenon in 1964. Beatles for Sale was not released in the US until 1987, when the Beatles' catalogue was standardised for release on CD. Instead, eight of the album's fourteen tracks appeared on Capitol Records' concurrent release, Beatles '65, issued in North America only.",
+    "image_name" : "4.png",
+    "title" : "Beatles for Sale",
+    "year" : 1964,
+    "tracks" : [ {
+      "lyrics" : "",
+      "number" : 1,
+      "title" : "No Reply",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 2,
+      "title" : "I'm a Loser",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 3,
+      "title" : "Baby's in Black",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 4,
+      "title" : "Rock and Roll Music",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 5,
+      "title" : "I'll Follow the Sun",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 6,
+      "title" : "Mr. Moonlight",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 7,
+      "title" : "Kansas City / Hey, Hey, Hey",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 8,
+      "title" : "Eight Days a Week",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 9,
+      "title" : "Words of Love",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 10,
+      "title" : "Every Little Thing",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 11,
+      "title" : "I Don't Want to Spoil the Party",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 12,
+      "title" : "What You're Doing",
+      "video_url" : ""
+    }, {
+      "lyrics" : "",
+      "number" : 13,
+      "title" : "Everybody's Trying to Be My Baby",
+      "video_url" : ""
+    } ],
+    "year" : 1964
+  } ]
+}
