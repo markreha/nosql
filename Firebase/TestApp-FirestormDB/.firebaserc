@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "music-database-e86f7": {
+      "hosting": {
+        "app2": [
+          "music-database-e86f7"
+        ]
+      }
+    }
+  }
+}

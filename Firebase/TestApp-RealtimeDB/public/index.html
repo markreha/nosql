@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mark's Music Database on Firebase RealtimeDB</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.14.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.14.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.14.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.14.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.14.0/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
+    <style media="screen">
+      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+      #message { background: white; max-width: 512px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
+      #message h2 { color: #ffa100; font-weight: bold; font-size: 28px; margin: 0 0 8px; }
+      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      @media (max-width: 600px) {
+        body, #message { margin-top: 0; background: white; box-shadow: none; }
+        body { border-top: 16px solid #ffa100; }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="message" align="center">
+      <h2>Welcome to Mark's Music Database on Firebase RealtimeDB</h2>
+      <p id="load">Firebase SDK Loading&hellip;</p>
+    </div>
+    
+    <!-- Table for Albums -->
+    <div align="center">
+	    <h2>The Beatles Music</h2>
+	    <div id="progress"> Loading......</div>
+		<table id="albums" width="50%" border="1">
+			<thead>
+				<tr style="background-color:#A0A0A0">
+					<th width="25%">Title</th>
+					<th width="10%">Year</th>
+					<th width="40%">Description</th>
+					<th width="25%">Number Tracks</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	</div>
+
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() 
+      {     
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        try 
+        {
+        	if(firebase.apps.length == 0) 
+			{			
+          		let app = firebase.app();
+          		let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
+	          	document.getElementById('load').innerHTML = `Firebase SDK was loaded with ${features.join(', ')}`;
+          	}
+          	else
+          	{
+          		document.getElementById('load').innerHTML = `Firebase SDK was loaded.`;
+          	}
+        } 
+        catch (e) 
+        {
+          console.error(e);
+          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
+        }
+        
+        // Display all Albums
+        displayAlbums();
+      });
+      
+      // Query the Database for Albums and dispaly then in a dynamic HTML table
+      function displayAlbums()
+      {
+      	// Get all the Albums from the Database
+		var ref = firebase.database().ref("albums");
+		ref.orderByChild("year").on("child_added", function(data) 
+		{
+			// For each Album display the Album info and also log to the console (really need to fix this for filtering just The Beatles)
+			if(data.val().artist === 'The Beatles')
+			{
+				displayAlbum(data.val());
+   				console.log(data.val().artist + ' ' + data.val().title);
+   			}
+		}, 
+		function (error)
+		{
+   	        alert("Error: " + error.code);
+			console.log("Error: " + error.code);
+		});
+      }
+      
+      // Insert a row into the Albums HTML table and populate its cells
+      function displayAlbum(album)
+      {
+      	// Dynamically insert a row and cells in the Albums HTML table
+ 		var table = document.getElementById("albums");
+		var row = table.insertRow(-1);
+		row.setAttribute("align", "center");
+		var cell1 = row.insertCell();
+		var cell2 = row.insertCell();
+		var cell3 = row.insertCell();
+		var cell4 = row.insertCell();
+		cell3.style.textAlign = "left";
+		
+		// Display the Album info in each of the HTML row cells then setup a JavaScript call on the tracks anchor tag
+		cell1.innerHTML = album.title + "<br/>" + "<img src='images/" + album.image_name + "\' width='75px' height='75px'/>";
+		cell2.innerHTML = album.year;
+		cell3.innerHTML = album.description;
+		if(album.tracks)
+			cell4.innerHTML = "<a href=" + "'javascript:displayTracks(\"" + album.title + "\"" + ")'>" + album.tracks.length + "</a>";
+		else
+			cell4.innerHTML = "No Tracks Available";
+		        
+        // Hide Loading Progress
+		document.getElementById("progress").style.visibility = "hidden"; 
+	  }
+	  
+	  // Display the Album Tracks
+	  function displayTracks(title)
+	  {
+      	// Get all the Albums from the Database
+		var ref = firebase.database().ref("albums");
+		ref.orderByChild("number").on("child_added", function(data) 
+		{
+			// If we found the Album Title then get all of its tracks and display in an alert box (really need to fix this for filtering just on desired title) 
+			if(data.val().title === title)
+			{
+				var tracks = "";
+				for(var track of data.val().tracks)
+					tracks = tracks + track.number + ". " + track.title + "\n";
+				alert(tracks);
+				return;
+			}
+		}, 
+		function (error)
+		{
+   	        alert("Error: " + error.code);
+			console.log("Error: " + error.code);
+		});
+	  }
+
+    </script>
+  </body>
+</html>

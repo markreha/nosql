@@ -1,0 +1,68 @@
+doctype html
+html(lang='en')
+	head
+		title Mark's Music Database on MongoDB
+		
+		style(type="text/css").
+			body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+			#message { background: white; max-width: 512px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
+			#message h2 { color: #ffa100; font-weight: bold; font-size: 28px; margin: 0 0 8px; }
+			#message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+			#message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+			#message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+			#message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+			#load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+
+		script.
+			// Display the Tracks (passed in as a /n separated list of Tracks in a string)
+			function displayTracks(tracks)
+			{
+				alert(tracks);
+			}
+			
+	body
+		// Welcome Message
+		div#message(align='center')
+			h2 Welcome to Mark's Music Database on MongoDB
+			p#load Using Remote MongoDB
+ 
+		// Display Albums for the Artist
+		div(align='center')
+			h2= artist
+			br
+			// Album Table
+			table(style='width:50%', border='1')
+				// Header Row
+				tr(style="background-color:#A0A0A0")
+					th(width="25%") Title
+					th(width="10%") Year
+					th(width="40%") Description
+					th(width="25%") Number of Tracks
+				// For each Album display a new Row
+				each album in albums
+					tr
+						// Title Column
+						td(align="center")= album.title 
+							br 
+							img(src="/images/" + album.image_name width="75px" height="75px")
+							
+						// Year Column
+						td(align="center")= album.year
+						
+						// Description Column
+						td(align="left")= album.description
+						
+						// Tracks Column
+						if album.tracks && album.tracks.length
+							// Tracks available so sort the tracks by number, concatenate and escape tracks as a single string, then display
+							- album.tracks = album.tracks.sort(function(a, b){return a.number - b.number})
+							- var tracksList = ""
+							each track in album.tracks
+								- tracksList = tracksList + track.number + ". " + track.title.replace('\'', '\\"') + '\\n'
+							td(align="center")
+								a(href="javascript:displayTracks('" + tracksList + "')")= album.tracks.length
+						else
+							// No tracks available
+							td(align="center")=	"No Tracks Available"
+							
+					
