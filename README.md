@@ -1,12 +1,12 @@
 # NoSQL Database Demo Applications
 This repository contains some example applications demonstrating the use of [Firebase](https://console.firebase.google.com) (both Realtime and Firestorm databases) and remote [MongoDB](https://www.mongodb.com) (using an account setup on mongo.com). These applications use a simple database schema that represents a music database that is populated with all of [**The Beatles**](https://www.thebeatles.com) albums.
 
-### Example Applications:<br>
+### Example Applications<br>
 1. Firebase RealtimeDB in the Firebase/TestApp-RealtimeDB repository is written as a pure HTML and JavaScript application that can be ran with a local firebase server or deployed to the Firebase Hosting service under a sub-domain of app1. You can see the running application [here](https://music-database-e86f7.web.app/app1).<br>
 2. Firebase Firestorm in the Firebase/TestApp-FirestormDB repository is written as a pure HTML and JavaScript application that can be ran with a local firebase server to deployed to the Firebase Hosting service under a sub-domain of app2. You can see the running application [here](https://music-database-e86f7.web.app/app2).<br>
 3. MongoDB in the MongoDB/TestApp repository is written as an JavaScript Express application using Pug templating. I have not deployed this application anywhere (yet). <br>
 
-### The Firestorm and MongoDB Database Schemas:<br>
+### The Firestorm and MongoDB Database Schemas<br>
 On my Firebase account I have a Cloud Firestorm database setup with a Collection named **albums**. Each Document in the Collection represents an Album with attributes of *artist*, *title*, *description*, *image name*, and array of *tracks*.<br><br>
 On my MongoDB account I have a databse setup named **mymusic** with a Collection named **albums**. Each Document in the Collection represents an Album with attributes of *artist*, *title*, *description*, *image name*, and array of *tracks*.<br>
 
@@ -19,7 +19,7 @@ On my MongoDB account I have a databse setup named **mymusic** with a Collection
 | <img src="Diagrams/schema1.png" alt="Database Schema on MongoDB"/>  | <img src="Diagrams/schema2.png" alt="Database Schema on Firestorm"/> 
 
 
-### Application Screenshots:<br>
+### Application Screenshots<br>
 The following are screenshots from each application:<br> 
 | MongoDB Demo App | Firestorm Demo App |
 |     :---:        |    :---:           |
@@ -28,9 +28,10 @@ The following are screenshots from each application:<br>
 
 ### Quick Links to Application Code:<br>
 * [Firestorm Main Application Page](https://github.com/markreha/nosql/blob/master/Firebase/TestApp-FirestormDB/public/index.html)
-* [MongoDB Main Application Page](https://github.com/markreha/nosql/blob/master/Mongodb/TestApp/app.js) and Pug Template Page
+* [MongoDB Main Express Script](https://github.com/markreha/nosql/blob/master/Mongodb/TestApp/app.js) and [Pug Template Page](https://github.com/markreha/nosql/blob/master/Mongodb/TestApp/views/index.pug)
 
-### Application Code Snippet for Firestorm:<br>
+
+#### Application Code Snippet for Firestorm<br>
 ```javascript
       // Query the Database for Albums and dispaly then in a dynamic HTML table
       function displayAlbums()
@@ -101,7 +102,7 @@ The following are screenshots from each application:<br>
 		});
 	  }
 ```
-### Application Code Snippet for MongoDB:<br>
+#### Application Code Snippets for MongoDB<br>
 ```javascript
 // Main Application Entry Path
 app.get('/', function (req, res) 
