@@ -9,7 +9,7 @@ This repository contains some example applications demonstrating the use of [Fir
 ### The Firestorm and MongoDB Database Schemas<br>
 On my Firebase account I have a Cloud Firestorm database setup with a Collection named **albums**. Each Document in the Collection represents an Album with object fields of *artist*, *title*, *description*, *image_name*, and array of *tracks*. The Tracks is an array of objects where the fields of the Track object are *title*, *number*, *lyrics*, and *video_url*.<br><br>
 On my MongoDB account I have a databse setup named **mymusic** with a Collection named **albums**. Each Document in the Collection represents an Album with object fields of *artist*, *title*, *description*, *image_name*, and array of *tracks*. The Tracks is an array of objects where the fields of the Track object are *title*, *number*, *lyrics*, and *video_url*.<br>
-<br> It should be noted that there is a "sample" [schema](https://github.com/markreha/nosql/blob/master/SampleDatabase/music-database-single-document.json) in the repository but it is just a single document and should only be used as reference for the object fields and music data.<br>
+<br> It should be noted that there is a "sample" [schema](https://github.com/markreha/nosql/blob/master/SampleDatabase/music-database-single-document.json) in the repository but it is just a single document and should only be used as reference for the object fields and music data. A better design is the multiple document [schema](https://github.com/markreha/nosql/blob/master/SampleDatabase/music-database-multiple-documents.json) also found in this repository.<br>
 <br>The following are screenshots of each schema:<br> 
 | MongoDB Schema | Firestorm Schema |
 |     :---:      |    :---:         |
