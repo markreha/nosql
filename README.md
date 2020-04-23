@@ -18,6 +18,17 @@ On my MongoDB account I have a databse setup named **mymusic** with a Collection
 | -------------  | -------------    |
 | <img src="Diagrams/schema1.png" alt="Database Schema on MongoDB"/>  | <img src="Diagrams/schema2.png" alt="Database Schema on Firestorm"/> 
 
+
+### Application Screenshots:<br>
+The following are screenshots from each application:<br> 
+| MongoDB Demo App | Firestorm Demo App |
+|     :---:        |    :---:           |
+| -------------    | -------------      |
+| <img src="Diagrams/app1.png" alt="Demo App of MongoDB"/>  | <img src="Diagrams/app2.png" alt="Demo App of Firestorm"/> 
+
+### Application Code for Firestorm:<br>
+* [Main Application Page](https://github.com/markreha/nosql/blob/master/Firebase/TestApp-FirestormDB/public/index.html)
+
 ### Application Code Snippet for Firestorm:<br>
 ```javascript
       // Query the Database for Albums and dispaly then in a dynamic HTML table
@@ -179,10 +190,3 @@ app.get('/', function (req, res)
 ```							
 
 
-
-### Application Screenshots:<br>
-The following are screenshots from each application:<br> 
-| MongoDB Demo App | Firestorm Demo App |
-|     :---:        |    :---:           |
-| -------------    | -------------      |
-| <img src="Diagrams/app1.png" alt="Demo App of MongoDB"/>  | <img src="Diagrams/app2.png" alt="Demo App of Firestorm"/> 
