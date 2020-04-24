@@ -1,5 +1,5 @@
 # NoSQL Database Demo Applications
-This repository contains some example applications demonstrating the use of [Firebase](https://console.firebase.google.com) (both Realtime and Firestorm databases) and remote [MongoDB](https://www.mongodb.com) (using an account setup on mongo.com). These applications use a simple database schema that represents a music database that is populated with all of [**The Beatles**](https://www.thebeatles.com) albums.
+This repository contains some example applications demonstrating the use of [Firebase](https://console.firebase.google.com) (both Realtime and Firestorm databases) and remote [MongoDB Atlas](https://www.mongodb.com) (using an account setup on mongo.com). These applications use a simple database schema that represents a music database that is populated with all of [**The Beatles**](https://www.thebeatles.com) albums.
 
 ### Example Applications<br>
 1. Firebase RealtimeDB in the Firebase/TestApp-RealtimeDB repository is written as a pure HTML and JavaScript application that can be ran with a local firebase server or deployed to the Firebase Hosting service under a sub-domain of app1. You can see the running application [here](https://music-database-e86f7.web.app/app1).<br>
