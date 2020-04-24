@@ -1,11 +1,7 @@
 # NoSQL Database Demo Applications
 
 <p align="center">
-
-|   Firebase Realtime     |     Firebase Firestorm     |    MongoDB Atlas   |
-| :---------------------: | :------------------------: | :------------------: |
-| <img src="Diagrams/logo1.png"/> | <img src="Diagrams/logo2.jpeg" /> | <img src="Diagrams/logo3.jpeg" /> |
-
+<img src="Diagrams/logo1.png"/><img src="Diagrams/logo2.jpeg" /><img src="Diagrams/logo3.jpeg" /> 
 </p>
 
 This repository contains some example applications demonstrating the use of [Firebase](https://console.firebase.google.com) (both Realtime and Firestorm databases) and remote [MongoDB Atlas](https://www.mongodb.com) (using an account setup on mongo.com). These applications use a simple database schema that represents a music database that is populated with all of [**The Beatles**](https://www.thebeatles.com) albums.
