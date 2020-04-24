@@ -1,4 +1,13 @@
 # NoSQL Database Demo Applications
+
+<p align="center">
+
+|   Firebase Realtime     |     Firebase Firestorm     |    MongoDB Atlas   |
+| :---------------------: | :------------------------: | :------------------: |
+| <img src="Diagrams/logo1.png"/> | <img src="Diagrams/logo2.jpeg" /> | <img src="Diagrams/logo3.jpeg" /> |
+
+</p>
+
 This repository contains some example applications demonstrating the use of [Firebase](https://console.firebase.google.com) (both Realtime and Firestorm databases) and remote [MongoDB Atlas](https://www.mongodb.com) (using an account setup on mongo.com). These applications use a simple database schema that represents a music database that is populated with all of [**The Beatles**](https://www.thebeatles.com) albums.
 
 ### Example Applications<br>
@@ -11,17 +20,15 @@ On my Firebase account I have a Cloud Firestorm database setup with a Collection
 On my MongoDB account I have a databse setup named **mymusic** with a Collection named **albums**. Each Document in the Collection represents an Album with object fields of *artist*, *title*, *description*, *image_name*, and array of *tracks*. The Tracks is an array of objects where the fields of the Track object are *title*, *number*, *lyrics*, and *video_url*.<br>
 <br> It should be noted that there is a "sample" [schema](https://github.com/markreha/nosql/blob/master/SampleDatabase/music-database-single-document.json) in the repository but it is just a single document and should only be used as reference for the object fields and music data. A better design is the multiple document [schema](https://github.com/markreha/nosql/blob/master/SampleDatabase/music-database-multiple-documents.json) also found in this repository.<br>
 <br>The following are screenshots of each schema:<br> 
-| MongoDB Schema | Firestorm Schema |
-|     :---:      |    :---:         |
-| -------------  | -------------    |
+|   MongoDB Schema   |   Firestorm Schema   |
+|   :-------------:  |   :-------------:    |
 | <img src="Diagrams/schema1.png" alt="Database Schema on MongoDB"/>  | <img src="Diagrams/schema2.png" alt="Database Schema on Firestorm"/> 
 
 
 ### Application Screenshots<br>
 The following are screenshots from each application:<br> 
-| MongoDB Demo App | Firestorm Demo App |
-|     :---:        |    :---:           |
-| -------------    | -------------      |
+|   MongoDB Demo App   |   Firestorm Demo App   |
+|   :-------------:    |   :-------------:      |
 | <img src="Diagrams/app1.png" alt="Demo App of MongoDB"/>  | <img src="Diagrams/app2.png" alt="Demo App of Firestorm"/> 
 
 ### Application Code<br>
