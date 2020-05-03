@@ -4,7 +4,7 @@ sudo apt-get install nodejs npm
 -- Build the Docker Image if the image has not been built before
 docker build -t mynodejs .
 
--- Code can be copied to the app folder
+-- Application Code can be copied to the share volume (see the run script)
 -- Run the Docker Image and go to localhost:3000 to run the Express / MongoDB Test App
 ./run.sh
 
