@@ -4,12 +4,13 @@
 <img src="Diagrams/logo1.png"/><img src="Diagrams/logo2.jpeg" /><img src="Diagrams/logo3.jpeg" /> 
 </p>
 
-This repository contains some example applications demonstrating the use of [Firebase](https://console.firebase.google.com) (both Realtime and Firestorm databases) and remote [MongoDB Atlas](https://www.mongodb.com) (using an account setup on mongo.com). These applications use a simple database schema that represents a music database that is populated with all of [**The Beatles**](https://www.thebeatles.com) albums.
+This repository contains some example applications demonstrating the use of [Firebase](https://console.firebase.google.com) (both Realtime and Firestorm databases) and remote [MongoDB Atlas](https://www.mongodb.com) (using an account setup on mongo.com). These applications use a simple database schema that represents a music database that is populated with all of [**The Beatles**](https://www.thebeatles.com) albums. 
 
 ### Example Applications<br>
 1. Firebase RealtimeDB in the Firebase/TestApp-RealtimeDB repository is written as a pure HTML and JavaScript application that can be ran with a local firebase server or deployed to the Firebase Hosting service under a sub-domain of app1. You can see the running application [here](https://music-database-e86f7.web.app/app1).<br>
 2. Firebase Firestorm in the Firebase/TestApp-FirestormDB repository is written as a pure HTML and JavaScript application that can be ran with a local firebase server to deployed to the Firebase Hosting service under a sub-domain of app2. You can see the running application [here](https://music-database-e86f7.web.app/app2).<br>
 3. MongoDB in the MongoDB/TestApp repository is written as an JavaScript Express application using Pug templating. You can see the running application [here](https://mongodbtest-mkr.herokuapp.com). <br>
+4. MongoDB in the Docker repository for an example Dockefile and run script to run a NodeJS Docker image that is configured with nodemon and an application share volume.
 
 ### The Firestorm and MongoDB Database Schemas<br>
 On my Firebase account I have a Cloud Firestorm database setup with a Collection named **albums**. Each Document in the Collection represents an Album with object fields of *artist*, *title*, *description*, *image_name*, and array of *tracks*. The Tracks is an array of objects where the fields of the Track object are *title*, *number*, *lyrics*, and *video_url*.<br><br>
