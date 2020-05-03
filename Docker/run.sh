@@ -1,0 +1,1 @@
+docker run -it --rm -p 3000:3000 -v /Users/markreha/playdocker/node:/usr/src/app mynodejs
